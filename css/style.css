@@ -13,6 +13,10 @@
   color: orange;
 }
 
+.btn {
+  width: fit-content;
+}
+
 .track {
   display: flex;
   flex-direction: row;
@@ -49,7 +53,11 @@
   left: 0%;
   margin-right: 880px;
   transition: margin-right 300ms;
-  animation: wiggle 800ms infinite;
+
+}
+
+.player.active {
+  animation: wiggle 400ms infinite;
 }
 
 @keyframes wiggle {
